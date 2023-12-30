@@ -1,0 +1,52 @@
+{
+  "name": "projet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 4000",
+    "build": "vue-cli-service build",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:interactive": "cypress open"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.2",
+    "axios": "^0.24.0",
+    "canvas-confetti": "^1.9.2",
+    "chart.js": "^2.9.4",
+    "core-js": "^3.19.0",
+    "cypress": "^10.3.1",
+    "date-fns": "^3.0.6",
+    "vue": "^3.3.9",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.14",
+    "@vue/cli-service": "~4.5.14",
+    "@vue/compiler-sfc": "^3.2.20",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^13.6.1",
+    "eslint": "^8.1.0",
+    "eslint-plugin-vue": "^7.20.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
